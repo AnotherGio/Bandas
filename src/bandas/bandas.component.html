@@ -1,0 +1,87 @@
+<style>
+  table, tr, th, td{
+    text-align: center;
+    border : 1px solid black;
+    border-collapse : collapse;
+  }
+  h3{
+     text-align: center;
+  }
+
+</style>
+<h3> 
+  Registro de informacion por reproducciones 
+</h3>
+
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col"> idEmpresa </th>
+      <th scope="col"> Empresa </th>
+      <th scope="col"> idArtista </th>
+      <th scope="col"> Artista </th>
+      <th scope="col"> Cantidad Operaciones </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[0]}} </td>
+      <td> {{empresas[0]}} </td>
+      <td> {{idArtistas[0]}} </td>
+      <td> {{artistas[0]}} </td>
+      <td> {{op[0]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[1]}} </td>
+      <td> {{empresas[1]}} </td>
+      <td> {{idArtistas[1]}} </td>
+      <td> {{artistas[1]}} </td>
+      <td> {{op[1]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[2]}} </td>
+      <td> {{empresas[2]}} </td>
+      <td> {{idArtistas[2]}} </td>
+      <td> {{artistas[2]}} </td>
+      <td> {{op[2]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[3]}} </td>
+      <td> {{empresas[3]}} </td>
+      <td> {{idArtistas[3]}} </td>
+      <td> {{artistas[3]}} </td>
+      <td> {{op[3]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[4]}} </td>
+      <td> {{empresas[4]}} </td>
+      <td> {{idArtistas[4]}} </td>
+      <td> {{artistas[4]}} </td>
+      <td> {{op[4]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[5]}} </td>
+      <td> {{empresas[5]}} </td>
+      <td> {{idArtistas[5]}} </td>
+      <td> {{artistas[5]}} </td>
+      <td> {{op[5]}} </td>
+    </tr>
+
+    <tr *ngFor = "let x of datos; index as i">
+      <td> {{idEmpresas[6]}} </td>
+      <td> {{empresas[6]}} </td>
+      <td> {{idArtistas[6]}} </td>
+      <td> {{artistas[6]}} </td>
+      <td> {{op[6]}} </td>
+    </tr>
+
+   </tbody>
+</table>
+

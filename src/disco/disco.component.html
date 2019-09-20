@@ -1,0 +1,63 @@
+<style>
+  table, tr, th, td{
+    text-align: center;
+    border : 1px solid black;
+    border-collapse : collapse;
+  }
+  h3{
+     text-align: center;
+  }
+
+</style>
+<h3> 
+  Informe de ganancias obtenidas por el artista
+</h3>
+
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col"> Artista </th>
+      <th scope="col"> Medio de difusion </th>
+      <th scope="col"> Total ganado </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[0]}} </td>
+      <td> {{medio[0]}} </td>
+      <td> {{ganancia[0]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[1]}} </td>
+      <td> {{medio[1]}} </td>
+      <td> {{ganancia[1]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[2]}} </td>
+      <td> {{medio[2]}} </td>
+      <td> {{ganancia[2]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[3]}} </td>
+      <td> {{medio[3]}} </td>
+      <td> {{ganancia[3]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[4]}} </td>
+      <td> {{medio[4]}} </td>
+      <td> {{ganancia[4]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[5]}} </td>
+      <td> {{medio[5]}} </td>
+      <td> {{ganancia[5]}} </td>
+    </tr>
+    <tr *ngFor = "let x of data; index as i">
+      <td> {{artista[6]}} </td>
+      <td> {{medio[6]}} </td>
+      <td> {{ganancia[6]}} </td>
+    </tr>
+  </tbody>
+</table>
